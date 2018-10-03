@@ -39,10 +39,10 @@
 # range (0, 5)
 
 # Here, the range loops over to . is excluded.
-def count_substring(string, sub_string):
+def count_substring(string, sub_string):  //initializing function
     count = 0
-    for i in range(0, len(string)):
+    for i in range(0, len(string)):  
         if (string[i:i+len(sub_string)] == sub_string):
-            count = count + 1
-    return count
+            count = count + 1 
+    return count 
     
